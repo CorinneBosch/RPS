@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <section id='box'>
+    <form id='game' action='/result'>
+      <br>
+      <br>
+      <h2>Your move: <%= @move %></h2>
+      <h2>Robots move: <%= @robot %></h2>
+
+      <% if @game.result == "Victory!" %>
+        <h2>You win <%= @name %>!</h2>
+      <% elsif @game.result == "Defeat!" %>
+        <h2>You loose <%= @name %>!</h2>
+      <% else %>
+        <h1>It's a draw <%= @name %>!</h2>
+      <% end %>
+    </form>
+    </section>
+  </body>
+</html>
