@@ -36,10 +36,8 @@ class Game < Sinatra::Base
     @move = session[:player_move]
     @game = Rps.new(session[:player_move], @robot)
     @game.result
-    # @game.result
 
     erb :result
-    # @game.result
   end
 
   # get '/defeat' do

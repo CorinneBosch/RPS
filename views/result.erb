@@ -12,9 +12,9 @@
       <h2>Your move: <%= @move %></h2>
       <h2>Robots move: <%= @robot %></h2>
 
-      <% if @game.result == "Victory!" %>
+      <% if @game.score == 2 %>
         <h2>You win <%= @name %>!</h2>
-      <% elsif @game.result == "Defeat!" %>
+      <% elsif @game.score == 0 %>
         <h2>You loose <%= @name %>!</h2>
       <% else %>
         <h1>It's a draw <%= @name %>!</h2>
