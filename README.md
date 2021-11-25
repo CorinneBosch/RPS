@@ -11,13 +11,18 @@ Rock-Paper-Scissors Challenge
 
 ```
 
+______
+ 
+[Set up](#Setup) | [Interact](#Interact) | [Run Tests](#Tests) | [User Stories](#User-Stories)
+## <a name="Setup">Set up</a>
+
 ## Implementation
 
 Functional representation of user requirements:
 
 [Check out my workflow mindmap](https://github.com/CorinneBosch/rps-challenge/blob/main/public/images/workflow.png)
 
-## Setup
+## <a name="Setup">Set up</a>
 
 1. **Fork** this [rps-challenge repository](https://github.com/CorinneBosch/rps-challenge.git) 
 2. Then clone **your** fork to your computer.
@@ -25,11 +30,11 @@ Functional representation of user requirements:
 4. Run `gem install bundler` if you dont have bundler.
 5. Once installed, run `bundle`.
 
-## How to run
+## <a name="Interact">Interact with the programme</a>
 
 To interact and play rock-paper-scissors web app, run `rackup` or `ruby app.rb` to start `localhost`.
 
-## Run test 
+## <a name="Tests">Run tests</a>
 
 To test specific features in your terminal.
 ```
@@ -42,7 +47,7 @@ $ cd rps_challenge
 $ rspec
 ```
 
-## The RPS challenge is built upon the following user stories:
+## <a name="User-Stories">The RPS challenge is built upon the following user stories:</a>
 
 Knowing how to build web applications is getting us almost there as web developers!
 
