@@ -10,11 +10,9 @@ Rock-Paper-Scissors Challenge
 ---.__(___)        ---.__________)           ---.__(___)
 
 ```
-
 ______
  
 [Set up](#Setup) | [Interact](#Interact) | [Run Tests](#Tests) | [User Stories](#User-Stories)
-## <a name="Setup">Set up</a>
 
 ## Implementation
 
